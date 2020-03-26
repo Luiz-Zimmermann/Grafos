@@ -12,16 +12,21 @@ class node:
     visit = 0
     adj = []
 
-def buscaP():
+def buscaP(verticeInic, verticeProc):
     visitadosList = []
-    for x in dicio:
-        visitadosList.append(dicio[x].id)
+    def buscaRecur(verticeI,verticeP):
+        for node in dicio[verticeI].adj:
+            if dicio[node].name not in visitadosList:
+                visitadosList.append(node)
+                print("sequencia: "+node)
+                if verticeP == node:
+                    print("Vertice "+node+" encontrado!!")
+                    return
+                else:
+                    buscaRecur(node, verticeP)
 
-    for x in range(tan):
-        for y in range(tan):
-            if(matriz[x,y]==1):
-                pass
-
+    buscaRecur(verticeInic,verticeProc)
+    print(visitadosList)
 
 def buscaL():
     pass
@@ -36,16 +41,13 @@ else:
 vertices = input("Informe os vertices.(Ex: a,b,c,d):")
 G.add_nodes_from(vertices.split(","))
 tan = len(vertices.split(","))
-nodesList = []
 
 dicio = {}
 
-#Pegando a quantidade de vertices e criando os objetos node
-for x in range(tan):
-    nodesList.append(node(vertices.split(",")[x],x))
+#Pegando a quantidade de vertices e criando os objetos node para cada vertice
+for x in range(tan): #key          value: nome e id
     dicio[vertices.split(",")[x]] = node(vertices.split(",")[x], x)
-for x in nodesList:
-    print(x.name,x.id)
+    print(vertices.split(",")[x], x)
 
 #Criando matriz
 matriz = np.zeros((tan,tan))
@@ -56,10 +58,9 @@ s = edges.split(";")
 
 #Pegando os vertices adjacentes de cada vertice
 for x in s:   #x:y
-   # vertList.append(x.split(":")[0])
     dicio[x.split(":")[0]].adj = x.split(":")[1].split(",")
 
-#Fazendo as ligações, usando a lib
+#Fazendo as ligações, usando a lib e preenchendo a matriz
 for x in dicio:
     print(dicio[x].name +": " + str(dicio[x].id))
     for y in dicio[x].adj:
@@ -76,19 +77,17 @@ for x in dicio:
 
 if(input("Deseja realizar uma busca?(S ou N)")=="S"):
     if(input("Por profundidade ou largura?(P ou L)")=="P"):
-        buscaP()
+        buscaP(input("Deseja começar por qual vertice?: "),input("Procurar vertice: "))
     else:
         buscaL()
 
-
 print(matriz)
 print("-------------------------------")
-
-vertList = []
-edgeList = []
 
 print(G.edges())
 nx.draw(G, with_labels="true")
 plt.show() # display
 
 #https://www.alura.com.br/artigos/trabalhando-com-o-dicionario-no-python
+#https://www.caelum.com.br/apostila-python-orientacao-objetos/funcoes/#funo-com-retorno
+#https://algoritmosempython.com.br/cursos/algoritmos-python/algoritmos-grafos/busca-profundidade
