@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="555f37cb-e7e5-4943-8bce-dd0390c9ada7" name="Default Changelist" comment="" />
+    <list default="true" id="555f37cb-e7e5-4943-8bce-dd0390c9ada7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Grafo_teste.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Grafo_teste.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +18,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1YrrsAguoq8U4OqGUucjesD0bfm" />
   <component name="ProjectViewState">
@@ -28,15 +36,15 @@
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Grafo_teste" />
+      <module name="Grafos_TrabalhoM1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\PICHAU\PycharmProjects\untitled\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -68,33 +76,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="679" y="134" key="#main" timestamp="1585506845651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1585506845651" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585238084908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585238084908" />
-    <state width="968" height="268" key="GridCell.Tab.0.bottom" timestamp="1585238537021">
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom" timestamp="1585506853388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585238537021" />
-    <state width="968" height="268" key="GridCell.Tab.0.center" timestamp="1585238537020">
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585506853388" />
+    <state width="1899" height="264" key="GridCell.Tab.0.center" timestamp="1585506853388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585238537020" />
-    <state width="968" height="268" key="GridCell.Tab.0.left" timestamp="1585238537020">
+    <state width="1899" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585506853388" />
+    <state width="1899" height="264" key="GridCell.Tab.0.left" timestamp="1585506853387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585238537020" />
-    <state width="968" height="268" key="GridCell.Tab.0.right" timestamp="1585238537020">
+    <state width="1899" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585506853387" />
+    <state width="1899" height="264" key="GridCell.Tab.0.right" timestamp="1585506853388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585238537020" />
+    <state width="1899" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585506853388" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585071485250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585071485250" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585233143734">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585506952871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585233143734" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585506952871" />
   </component>
 </project>
