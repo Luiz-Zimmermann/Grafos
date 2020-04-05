@@ -12,6 +12,5 @@ Developed by:
   Luiz Alberto Zimmermann Zabel Martins Pinto
   
  Discipline: Grafos
- Professor: Rudimar Luis Scaranto Dazzi 
- Universidade do Vale do Itajaí - UNIVALI
- Santa Catarina - Brazil
+ Professor: Rudimar Luis Scaranto Dazzi
+ University:  Universidade do Vale do Itajaí - UNIVALI
