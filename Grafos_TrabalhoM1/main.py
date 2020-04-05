@@ -13,9 +13,8 @@ class node:
     adj = []
 
 def buscaPr(ver):
-    pilha = []
-    visitados =[]
-    pilha.append(ver)
+    visitados = [ver]
+    pilha = [ver]
     while pilha:
         v = pilha.pop()
         print("sequencia: "+v)
